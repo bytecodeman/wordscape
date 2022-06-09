@@ -1,0 +1,52 @@
+﻿body {
+    margin-bottom: 70px;
+	overflow-y: scroll;
+}
+.jumbotron {
+	padding: 2rem;
+}
+.adsbygoogle {
+    display: block;
+}
+div.clearfix {
+    margin-bottom: 20px;
+}
+
+input#letters, input#pattern {
+    letter-spacing: 0.5rem;
+}
+
+.isWord {
+    color: green;
+    font-weight: bold;
+}
+
+table#resultsTable {
+    table-layout: fixed;
+}
+
+table#resultsTable td:nth-child(1), table#resultsTable th:nth-child(1) {
+    width: 4rem;
+}
+
+#toTop {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+}
+
+#toTop i {
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(51, 122, 183, 0.7);
+    padding: 20px 25px;
+    display: inline-block;
+    font-size: 30px;
+    transition: color 0.3s ease-in-out 0s, background 0.3s ease-in-out 0s;
+}
+
+html.cannotTouch #toTop i:hover {
+    color: rgb(51, 122, 183);
+    background-color: rgba(200,200,200, 0.4);
+}
